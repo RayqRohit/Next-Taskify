@@ -1,20 +1,14 @@
 @import "tailwindcss";
 
-:root {
-  --primary-blue: #2563eb;
-  --dark-navy: #0f172a;
-  --pure-white: #ffffff;
-  --slate-grey: #64748b;
-  --light-blue: #eff6ff;
-  --soft-blue-border: #dbeafe;
-  --off-white: #f8fafc;
-  --light-slate: #e2e8f0;
+@theme {
+  --font-display: var(--font-polymath), var(--font-figtree), sans-serif;
+  --font-body: var(--font-figtree), sans-serif;
 }
 
 body, html {
-  font-family: var(--font-figtree), system-ui, -apple-system, sans-serif;
-  background-color: var(--pure-white);
-  color: var(--dark-navy);
+  font-family: var(--font-body);
+  background-color: #ffffff;
+  color: #0f172a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scrollbar-width: none; /* Firefox */
@@ -33,14 +27,6 @@ html::-webkit-scrollbar,
 * {
   scrollbar-width: none;
   -ms-overflow-style: none;
-}
-
-.font-display {
-  font-family: var(--font-polymath), var(--font-figtree), sans-serif !important;
-}
-
-.font-body {
-  font-family: var(--font-figtree), sans-serif;
 }
 
 /* Page container utility avoiding collision with Tailwind's .container */

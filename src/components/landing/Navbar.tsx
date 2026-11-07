@@ -21,7 +21,7 @@ export default function Navbar() {
           </span>
         </Link>
 
-        <nav className="flex items-center gap-2 sm:gap-4 shrink-0">
+        <nav aria-label="Main" className="flex items-center gap-2 sm:gap-4 shrink-0">
           <Link
             href="/login"
             className="text-xs sm:text-sm font-semibold text-slate-900 px-3.5 py-2 sm:px-5 sm:py-2.5 rounded-full border border-slate-200 hover:bg-slate-50 hover:border-slate-300 transition-colors whitespace-nowrap"
