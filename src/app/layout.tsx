@@ -5,22 +5,22 @@ import "./globals.css";
 const figtree = localFont({
   src: [
     {
-      path: "../fonts/Figtree-Regular.ttf",
+      path: "../fonts/figtree-regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../fonts/Figtree-Medium.ttf",
+      path: "../fonts/figtree-medium.ttf",
       weight: "500",
       style: "normal",
     },
     {
-      path: "../fonts/Figtree-SemiBold.ttf",
+      path: "../fonts/figtree-semibold.ttf",
       weight: "600",
       style: "normal",
     },
     {
-      path: "../fonts/Figtree-Bold.ttf",
+      path: "../fonts/figtree-bold.ttf",
       weight: "700",
       style: "normal",
     },
@@ -32,22 +32,22 @@ const figtree = localFont({
 const polymath = localFont({
   src: [
     {
-      path: "../fonts/Polymath Display Regular.ttf",
+      path: "../fonts/polymath-display-regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../fonts/Polymath Display Medium.ttf",
+      path: "../fonts/polymath-display-medium.ttf",
       weight: "500",
       style: "normal",
     },
     {
-      path: "../fonts/Polymath Display Semibold.ttf",
+      path: "../fonts/polymath-display-semibold.ttf",
       weight: "600",
       style: "normal",
     },
     {
-      path: "../fonts/Polymath Display Bold.ttf",
+      path: "../fonts/polymath-display-bold.ttf",
       weight: "700",
       style: "normal",
     },
@@ -71,12 +71,6 @@ export default function RootLayout({
       lang="en"
       className={`${figtree.variable} ${polymath.variable} h-full antialiased`}
     >
-      <head>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        />
-      </head>
       <body className="min-h-full flex flex-col font-body">{children}</body>
     </html>
   );
