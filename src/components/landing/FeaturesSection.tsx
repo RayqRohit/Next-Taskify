@@ -48,7 +48,7 @@ export default function FeaturesSection() {
                 <h3 className="font-body text-2xl sm:text-[1.7rem] font-bold text-slate-900 mb-3.5 tracking-tight">
                   {feature.title}
                 </h3>
-                <p className="font-body text-[15px] sm:text-base text-slate-500 leading-relaxed">
+                <p className="font-body text-[1.1rem] text-slate-500 leading-[1.7]">
                   {feature.text}
                 </p>
               </li>
