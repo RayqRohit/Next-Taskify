@@ -11,7 +11,7 @@ export default function HeroSection() {
       }}
     >
       <div className="page-container">
-        <div className="max-w-full mx-auto relative z-10 px-2 sm:px-0">
+        <div className="max-w-full mx-auto relative z-10 px-0 sm:px-0">
           {/* Rocket Announcement Badge */}
           <div className="inline-flex items-center gap-2.5 px-4 py-2 sm:px-5 sm:py-2.5 rounded-full bg-blue-50 border border-blue-200/60 text-xs sm:text-[13px] font-bold text-blue-600 tracking-wider mb-8 sm:mb-10 font-body shadow-xs">
             <Rocket className="w-3.5 h-3.5 text-blue-600 fill-blue-600" />
@@ -27,7 +27,7 @@ export default function HeroSection() {
           </h1>
 
           {/* Hero Subtitle */}
-          <p className="font-body text-base sm:text-xl text-slate-500 max-w-[650px] mx-auto mb-10 sm:mb-14 leading-relaxed px-2">
+          <p className="font-body text-base sm:text-xl text-slate-500 max-w-[650px] mx-auto mb-10 sm:mb-14 leading-relaxed px-0 sm:px-2">
             Collaborate, manage projects, and reach new productivity peaks. From
             high-rise buildings to remote offices, the way your team works is
             unique – accomplish it all with Taskify.

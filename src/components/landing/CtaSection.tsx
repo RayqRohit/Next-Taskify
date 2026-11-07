@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function CtaSection() {
   return (
-    <section className="bg-slate-50 rounded-[40px] my-16 mx-4 sm:mx-8 py-24 sm:py-32 text-center">
-      <div className="page-container">
+    <section className="bg-slate-50 rounded-[40px] my-16 mx-3 sm:mx-8 py-20 sm:py-32 text-center">
+      <div className="page-container px-4 sm:px-6">
         <h2 className="font-body text-3xl sm:text-4xl md:text-[2.7rem] font-extrabold text-slate-900 tracking-tight mb-6">
           Ready to boost your productivity?
         </h2>
